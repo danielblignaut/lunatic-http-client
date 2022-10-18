@@ -1,0 +1,24 @@
+[package]
+name = "lunatic-http-client"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+httparse = "1"
+# lazy_static = "1"
+lunatic = { git = "https://github.com/lunatic-solutions/lunatic-rs", features = ["msgpack_serializer"]}
+lunatic-test = {version = "0.10.0"}
+# native-tls = { version = "0.2", optional = true }
+# num_cpus = { version = "1", optional = true }
+# rayon-core = { version = "1", optional = true }
+# rustls-crate = { version = "0.20", optional = true, package = "rustls" }
+# rustls-native-certs = { version = "0.6", optional = true }
+url = "2"
+
+# [features]
+# rustls = ["rustls-crate", "rustls-native-certs"]
+# rayon = ["rayon-core", "num_cpus"]
+
+[package.metadata.docs.rs]
+all-features = true
