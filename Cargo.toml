@@ -8,7 +8,7 @@ edition = "2021"
 httparse = "1"
 # lazy_static = "1"
 lunatic = { git = "https://github.com/lunatic-solutions/lunatic-rs", features = ["msgpack_serializer"]}
-lunatic-test = {version = "0.10.0"}
+lunatic-test = {version = "0.13.0"}
 # native-tls = { version = "0.2", optional = true }
 # num_cpus = { version = "1", optional = true }
 # rayon-core = { version = "1", optional = true }
